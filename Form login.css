@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    background-image: url(a.png);
+    height: 100vh;
+    background-size: cover;
+}
+#icon {
+    color: white;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    margin: 0px;
+}
+h3 {
+    font-size: 50px;
+}
+.data{
+    position: relative;
+    width: 25%;
+    padding: 15px 50px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 25px;
+    border: solid white;
+}
+.data:focus{
+    box-shadow: 0px 0px 20px 0px white;
+    transition: 0.3s;
+}
+#FormIcon{
+    position: absolute;
+    z-index: 1;
+    padding-top: 17px;
+    padding-left: 20px;
+    color: #8a8a8a;   
+}
+.submit{
+    position: relative;
+    width: 25%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #333333;
+    transition: all 0.2s;
+}
+.submit:hover{
+   font-size: 100%;
+   width: 30%;
+}
+.submit:active{
+    color: black;
+    background-color: white;
+}
+p {
+    margin-bottom: 0px;
+    margin-top: 120px;
+}
+a:focus {
+    color: black;
+    opacity: 50%;
+}
+/**rgba(0, 43, 234, 0.9),rgba(0, 198, 251, 0.9))
